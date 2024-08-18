@@ -9,7 +9,8 @@ Unreal Engine Plugin for integrating sprite animations into the project
 3. Find in Window->SpriteAnimationIntegrationTool
 
 ## Actor Setup
-1. On the Sprite to animate, give it a component tag "MainSprite"
+1. On the Sprite to animate, give it a component tag
+   1a. In the Sprite Animation Component, you need to type in the same name as the tag you gave in the sprite tag box
 2. Select the amount of directions in the animation
 3. You will need to update the state manually
    3a. SpriteAnimation->SetState("State")
